@@ -58,7 +58,7 @@ public class VormetricDecryptFunction extends ScalarFunctionFactory {
 	
         String utfMode = "ASCII";	
         
-		String pin = "Vormetric123!";
+		String pin = "yourpwd";
 		String libPath = null;
 		String operation = "CBC_PAD";
 		String charSetStr = "0123456789-";

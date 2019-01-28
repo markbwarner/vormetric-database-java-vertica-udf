@@ -56,7 +56,7 @@ public class VormetricEncryptFunction extends ScalarFunctionFactory {
 		StringBuffer stringPattern = new StringBuffer("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ");
 		StringBuffer combinedPattern =new StringBuffer("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789");
 		
-		String pin = "Vormetric123!";
+		String pin = "yourpwd";
 		String libPath = null;
 		String operation = "CBC_PAD";
 		String charSetStr = "0123456789-";

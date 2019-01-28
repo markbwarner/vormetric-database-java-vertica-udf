@@ -71,7 +71,7 @@ public class VormetricDecryptVTS extends ScalarFunctionFactory {
 
 			do {
 				srvInterface.log("processBlock begin");
-				String userpwd = user+ ":Vormetric123!";
+				String userpwd = user+ ":yourpwd";
 				String credential = Base64.encodeBase64String(userpwd.getBytes());
 				String encdata = arg_reader.getString(0);
 				String originaldata = "";
